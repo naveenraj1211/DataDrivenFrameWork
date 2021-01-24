@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [Login Suite]">
+  <test thread-count="1" verbose="10" name="Login Test Cases Both Correct(failed)">
+    <classes>
+      <class name="LoginTestCases.BothCorrect">
+        <methods>
+          <include name="LoginWithBothCorrect"/>
+        </methods>
+      </class> <!-- LoginTestCases.BothCorrect -->
+    </classes>
+  </test> <!-- Login Test Cases Both Correct(failed) -->
+</suite> <!-- Failed suite [Login Suite] -->
